@@ -746,7 +746,7 @@ ul.higher-reach {
 }
 
 .news .container .more-news .box .text h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
@@ -754,6 +754,7 @@ ul.higher-reach {
   margin-top: 0.3rem;
   list-style: none;
   color: #666;
+  font-size: 1.5rem;
 }
 
 /* our gallery */
