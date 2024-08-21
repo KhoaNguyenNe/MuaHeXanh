@@ -505,6 +505,57 @@ ul.higher-reach {
     margin-right: 12px;
 }
 
+/*new*/
+.news {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #9ad9db;
+}
+
+.news .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.news .container .latest-news,
+.news .container .more-news {
+  width: 100%;
+  flex: 1 0 350px;
+}
+
+.news .container .more-news {
+  display: grid;
+  gap: 1rem;
+}
+
+.news .container .more-news .box {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  background-color: #98d4bb;
+}
+
+.news .container .more-news .box img {
+  width: 135px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0.5rem;
+}
+
+.news .container .more-news .box .text h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.news .container .more-news .box .text li {
+  margin-top: 0.3rem;
+  list-style: none;
+  color: #666;
+  font-size: 1.5rem;
+}
   
   /* Footer */
 
